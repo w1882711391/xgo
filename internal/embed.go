@@ -2,5 +2,5 @@ package internal
 
 import "embed"
 
-// Template embed.FS可以将文件嵌入到可执行程序中
+//go:embed template/*
 var Template embed.FS
